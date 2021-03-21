@@ -8,8 +8,8 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 | Setting | Variable | 
 | --------------- | --------------- | 
 | Subject | cryptsus.com |
-| Fingerprint SHA256 | FINGERPRINT |
-| Pin SHA256 | PIN |
+| Fingerprint SHA256 | a4b481ad06b99a4a32919f2d5c8f48291bdc4d15878261963aad5a5a2b6595ba |
+| Pin SHA256 | E9PiW8ARazeW5CmILoXgcvU3nbF2Ylj4U0HU4nm2rXc= |
 | Common names | cryptsus.com |
 | Alternative names | cryptsus.com www.cryptsus.com |
 | Serial Number	| 03f4b8b6ae311dc8bc877674695719379e07 |
@@ -17,15 +17,14 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 | Valid until	| Tue, 20 Apr 2021 22:01:02 UTC (expires in 30 days, 9 hours) |
 | Key | RSA 4096 bits (e 65537) |
 | Weak key (Debian) | No |
-| Issuer | R3 |
-| AIA | http://r3.i.lencr.org/ |
+| Issuer | R3 AIA http://r3.i.lencr.org/ |
 | Signature algorithm | SHA256withRSA |
 | Extended Validation | No |
 | Certificate Transparency	 | Yes (certificate) |
 | OCSP Must Staple | No |
-| Revocation information	OCSP | http://r3.o.lencr.org |
+| Revocation information	| OCSP http://r3.o.lencr.org |
 | Revocation status | Good (not revoked) |
-| DNS CAA	Yes issue | letsencrypt.org flags:0 |
+| DNS CAA	| Yes letsencrypt.org flags:0 |
 | Trusted | Yes Mozilla  Apple  Android  Java  Windows  |
 
 
@@ -33,8 +32,8 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 
 | Setting | Variable | 
 | --------------- | --------------- | 
-| Subject	R3 Fingerprint SHA256 | FINGERPRINT |
-| Pin SHA256 | PIN |
+| Subject	R3 Fingerprint SHA256 | 730c1bdcd85f57ce5dc0bba733e5f1ba5a925b2a771d640a26f7a454224dad3b |
+| Pin SHA256 | jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0= |
 | Valid until | Wed, 29 Sep 2021 19:21:40 UTC (expires in 6 months and 8 days) |
 | Key	RSA | 2048 bits (e 65537) |
 | Issuer | DST Root CA X3 |
