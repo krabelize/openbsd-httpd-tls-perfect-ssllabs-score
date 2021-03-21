@@ -42,17 +42,14 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 
 **Protocols**
 
-TLS 1.3	Yes
-
-TLS 1.2	Yes
-
-TLS 1.1	No
-
-TLS 1.0	No
-
-SSL 3	No
-
-SSL 2	No
+| Setting | Variable | 
+| --------------- | --------------- | 
+| TLS 1.3 | Yes |
+| TLS 1.2 | Yes |
+| TLS 1.1 | No |
+| TLS 1.0 | No |
+| SSL 3 | No |
+| SSL 2 | No |
 
 **Cipher Suites**
  
@@ -125,98 +122,56 @@ YandexBot Jan 2015 RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA3
 
 **Protocol Details**
 
-DROWN	No, server keys and hostname not seen elsewhere with SSLv2
-
-Secure Renegotiation	Supported
-
-Secure Client-Initiated Renegotiation	No
-
-Insecure Client-Initiated Renegotiation	No
-
-BEAST attack	Mitigated server-side 
-
-POODLE (SSLv3)	No, SSL 3 not supported
-
-POODLE (TLS)	No
-
-Zombie POODLE	No TLS 1.2 : 0xc014
-
-GOLDENDOODLE	No TLS 1.2 : 0xc014
-
-OpenSSL 0-Length	No TLS 1.2 : 0xc014
-
-Sleeping POODLE	No TLS 1.2 : 0xc014
-
-Downgrade attack prevention	Yes, TLS_FALLBACK_SCSV supported
-
-SSL/TLS compression	No
-
-RC4	No
-
-Heartbeat (extension)	No
-
-Heartbleed (vulnerability)
-
-Ticketbleed (vulnerability)
-
-OpenSSL CCS vuln. (CVE-2014-0224)	No
-
-OpenSSL Padding Oracle vuln. (CVE-2016-2107)
-
-ROBOT (vulnerability)	No (more info)
-
-Forward Secrecy	Yes (with most browsers) ROBUST
-
-ALPN	No
-
-NPN	No
-
-Session resumption (caching)	No (IDs empty)
-
-Session resumption (tickets)	Yes
-
-OCSP stapling	Yes
-
-Strict Transport Security (HSTS)	Yes
-
-max-age=31536000; includeSubDomains; preload
-
-HSTS Preloading	Chrome  Edge  Firefox  IE   
-
-Public Key Pinning (HPKP)	No
-
-Public Key Pinning Report-Only	No
-
-Public Key Pinning (Static)	No
-
-Long handshake intolerance	No
-
-TLS extension intolerance	No
-
-TLS version intolerance	No
-
-Incorrect SNI alerts	No
-
-Uses common DH primes	No, DHE suites not supported
-
-DH public server param (Ys) reuse	No, DHE suites not supported
-
-ECDH public server param reuse	No
-
-Supported Named Groups	secp384r1
-
-SSL 2 handshake compatibility	No
-
-0-RTT enabled	No
+| Setting | Variable | 
+| --------------- | --------------- | 
+| DROWN |	No, server keys and hostname not seen elsewhere with SSLv2 |
+| Secure Renegotiation | Supported |
+| Secure Client-Initiated Renegotiation | No |
+| Insecure Client-Initiated Renegotiation | No |
+| BEAST attack | Mitigated server-side |
+| POODLE (SSLv3) | No, SSL 3 not supported |
+| POODLE (TLS) | No |
+| Zombie POODLE | No TLS 1.2 : 0xc014 |
+| GOLDENDOODLE | No TLS 1.2 : 0xc014 |
+| OpenSSL 0-Length | No TLS 1.2 : 0xc014 |
+| Sleeping POODLE | No TLS 1.2 : 0xc014 |
+| Downgrade attack prevention | Yes, TLS_FALLBACK_SCSV supported |
+| SSL/TLS compression | No |
+| RC4	| No |
+| Heartbeat (extension) | No |
+| Heartbleed (vulnerability) | No |
+| Ticketbleed (vulnerability) | No |
+| OpenSSL CCS vuln. (CVE-2014-0224) | No |
+| OpenSSL Padding Oracle vuln. (CVE-2016-2107) | No |
+| ROBOT (vulnerability)	No (more info) | No |
+| Forward Secrecy | Yes (with most browsers) ROBUST |
+| ALPN | No |
+| NPN | No |
+| Session resumption (caching) | No (IDs empty) |
+| Session resumption (tickets) | Yes |
+| OCSP stapling | Yes |
+| Strict Transport Security (HSTS) | Yes max-age=31536000; includeSubDomains; preload |
+| HSTS Preloading | Chrome  Edge  Firefox  IE |
+| Public Key Pinning (HPKP) | No |
+| Public Key Pinning Report-Only | No |
+| Public Key Pinning (Static) | No |
+| Long handshake intolerance | No |
+| TLS extension intolerance | No |
+| TLS version intolerance | No |
+| Incorrect SNI alerts | No |
+| Uses common DH primes | No, DHE suites not supported |
+| DH public server param (Ys) reuse | No, DHE suites not supported |
+| ECDH public server param reuse | No |
+| Supported Named Groups | secp384r1 |
+| SSL 2 handshake compatibility | No |
+| 0-RTT enabled | No |
 
 **Miscellaneous**
 
-Test date	Sun, 21 Mar 2021 12:41:30 UTC
-
-Test duration	81.946 seconds
-
-HTTP status code	200
-
-HTTP server signature	OpenBSD httpd
-
-Server hostname	cryptsus.com
+| Setting | Variable | 
+| --------------- | --------------- | 
+| Test date | Sun, 21 Mar 2021 12:41:30 UTC |
+| Test duration | 81.946 seconds |
+| HTTP status code | 200 |
+| HTTP server signature | OpenBSD httpd |
+| Server hostname | cryptsus.com |
