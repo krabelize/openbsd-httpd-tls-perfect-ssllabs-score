@@ -61,10 +61,15 @@ Signature algorithm	SHA256withRSA
 **Protocols**
 
 TLS 1.3	Yes
+
 TLS 1.2	Yes
+
 TLS 1.1	No
+
 TLS 1.0	No
+
 SSL 3	No
+
 SSL 2	No
 
 **Cipher Suites**
