@@ -8,9 +8,9 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 
 Subject cryptsus.com
 
-Fingerprint SHA256: fingerprint
+Fingerprint SHA256: FINGERPRINT
 
-Pin SHA256: pin
+Pin SHA256: PIN
 
 Common names cryptsus.com
 
@@ -48,7 +48,7 @@ Trusted	Yes Mozilla  Apple  Android  Java  Windows
 
 **Additional Certificates (if supplied)**
 
-Subject	R3 Fingerprint SHA256: hash Pin SHA256: pin
+Subject	R3 Fingerprint SHA256: FINGERPRINT Pin SHA256: PIN
 
 Valid until	Wed, 29 Sep 2021 19:21:40 UTC (expires in 6 months and 8 days)
 
