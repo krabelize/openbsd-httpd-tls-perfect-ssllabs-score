@@ -52,14 +52,14 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 
 **Cipher Suites**
  
-# TLS 1.3 (suites in server-preferred order)
+**TLS 1.3 (suites in server-preferred order)**
 ```
 TLS_AES_256_GCM_SHA384 (0x1302)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	256
 TLS_CHACHA20_POLY1305_SHA256 (0x1303)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	256
 TLS_AES_128_GCM_SHA256 (0x1301)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	128	
 ```
 
-# TLS 1.2 (suites in server-preferred order)
+**TLS 1.2 (suites in server-preferred order)**
 ```
 TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	256	
 TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	256
