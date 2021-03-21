@@ -5,58 +5,40 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 
 
 **Server Key and Certificate #1**
+| Setting | Variable | 
+| --------------- | --------------- | 
+| Subject | cryptsus.com |
+| Fingerprint SHA256 | FINGERPRINT |
+| Pin SHA256 | PIN |
+| Common names | cryptsus.com |
+| Alternative names | cryptsus.com www.cryptsus.com |
+| Serial Number	| 03f4b8b6ae311dc8bc877674695719379e07 |
+| Valid from | Wed, 20 Jan 2021 22:01:02 UTC |
+| Valid until	| Tue, 20 Apr 2021 22:01:02 UTC (expires in 30 days, 9 hours) |
+| Key | RSA 4096 bits (e 65537) |
+| Weak key (Debian) | No |
+| Issuer | R3 |
+| AIA | http://r3.i.lencr.org/ |
+| Signature algorithm | SHA256withRSA |
+| Extended Validation | No |
+| Certificate Transparency	 | Yes (certificate) |
+| OCSP Must Staple | No |
+| Revocation information	OCSP | http://r3.o.lencr.org |
+| Revocation status | Good (not revoked) |
+| DNS CAA	Yes issue | letsencrypt.org flags:0 |
+| Trusted | Yes Mozilla  Apple  Android  Java  Windows  |
 
-Subject cryptsus.com
-
-Fingerprint SHA256: FINGERPRINT
-
-Pin SHA256: PIN
-
-Common names cryptsus.com
-
-Alternative names	cryptsus.com www.cryptsus.com
-
-Serial Number	03f4b8b6ae311dc8bc877674695719379e07
-
-Valid from	Wed, 20 Jan 2021 22:01:02 UTC
-
-Valid until	Tue, 20 Apr 2021 22:01:02 UTC (expires in 30 days, 9 hours)
-
-Key	RSA 4096 bits (e 65537)
-
-Weak key (Debian)	No
-
-Issuer	R3
-
-AIA: http://r3.i.lencr.org/
-
-Signature algorithm	SHA256withRSA
-
-Extended Validation	No
-
-Certificate Transparency	Yes (certificate)
-
-OCSP Must Staple	No
-
-Revocation information	OCSP http://r3.o.lencr.org
-
-Revocation status	Good (not revoked)
-
-DNS CAA	Yes issue: letsencrypt.org flags:0
-
-Trusted	Yes Mozilla  Apple  Android  Java  Windows 
 
 **Additional Certificates (if supplied)**
 
-Subject	R3 Fingerprint SHA256: FINGERPRINT Pin SHA256: PIN
-
-Valid until	Wed, 29 Sep 2021 19:21:40 UTC (expires in 6 months and 8 days)
-
-Key	RSA 2048 bits (e 65537)
-
-Issuer	DST Root CA X3
-
-Signature algorithm	SHA256withRSA
+| Setting | Variable | 
+| --------------- | --------------- | 
+| Subject	R3 Fingerprint SHA256 | FINGERPRINT |
+| Pin SHA256 | PIN |
+| Valid until | Wed, 29 Sep 2021 19:21:40 UTC (expires in 6 months and 8 days) |
+| Key	RSA | 2048 bits (e 65537) |
+| Issuer | DST Root CA X3 |
+| Signature algorithm | SHA256withRSA |
 
 **Protocols**
 
@@ -238,7 +220,3 @@ HTTP status code	200
 HTTP server signature	OpenBSD httpd
 
 Server hostname	cryptsus.com
-
-
-
-Read other security blog posts on cryptsus.com/blog
