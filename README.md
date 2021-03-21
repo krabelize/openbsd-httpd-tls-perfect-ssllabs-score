@@ -48,7 +48,7 @@ Trusted	Yes Mozilla  Apple  Android  Java  Windows
 
 **Additional Certificates (if supplied)**
 
-Subject	R3 Fingerprint SHA256: 730c1bdcd85f57ce5dc0bba733e5f1ba5a925b2a771d640a26f7a454224dad3b Pin SHA256: jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0=
+Subject	R3 Fingerprint SHA256: hash Pin SHA256: pin
 
 Valid until	Wed, 29 Sep 2021 19:21:40 UTC (expires in 6 months and 8 days)
 
