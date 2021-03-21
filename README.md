@@ -1,7 +1,5 @@
 # OpenBSD httpd TLS config with Let's Encrypt
-OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt (acme-client)
-
-[httpd config file](https://github.com/krabelize/openbsd-httpd-tls-config-ssllabs/blob/main/httpd.conf)
+OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt (acme-client). Use this [httpd config file](https://github.com/krabelize/openbsd-httpd-tls-config-ssllabs/blob/main/httpd.conf).
 
 ![ssllabs-perfect-score](https://cryptsus.com/blog/ssl-labs-a-plus.jpg)
 
