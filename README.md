@@ -8,9 +8,9 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 
 Subject cryptsus.com
 
-Fingerprint SHA256: <fingerprint>
+Fingerprint SHA256: fingerprint
 
-Pin SHA256: <pin>
+Pin SHA256: pin
 
 Common names cryptsus.com
 
