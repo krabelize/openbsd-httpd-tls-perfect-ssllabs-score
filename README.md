@@ -8,9 +8,9 @@ OpenBSD httpd configuration for perfect TLS SSL Labs score A+ with Let's Encrypt
 
 Subject cryptsus.com
 
-Fingerprint SHA256: a4b481ad06b99a4a32919f2d5c8f48291bdc4d15878261963aad5a5a2b6595ba
+Fingerprint SHA256: <fingerprint>
 
-Pin SHA256: E9PiW8ARazeW5CmILoXgcvU3nbF2Ylj4U0HU4nm2rXc=
+Pin SHA256: <pin>
 
 Common names cryptsus.com
 
@@ -70,18 +70,22 @@ SSL 2	No
 **Cipher Suites**
  
 # TLS 1.3 (suites in server-preferred order)
+`
 TLS_AES_256_GCM_SHA384 (0x1302)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	256	
 TLS_CHACHA20_POLY1305_SHA256 (0x1303)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	256	
 TLS_AES_128_GCM_SHA256 (0x1301)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	128	
- 
+`
+
 # TLS 1.2 (suites in server-preferred order)
+`
 TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	256	
 TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	256	
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)   ECDH secp384r1 (eq. 7680 bits RSA)   FS	128	
-
+`
 
 **Handshake Simulation**
 
+`
 Android 4.4.2 RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384   ECDH secp384r1  FS
 Android 5.0.0 RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp384r1  FS
 Android 6.0 RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp384r1  FS
@@ -130,6 +134,7 @@ Safari 12.1.1 / iOS 12.3.1  R - TLS 1.3	TLS_AES_256_GCM_SHA384   ECDH secp384r1 
 Apple ATS 9 / iOS 9  R RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384   ECDH secp384r1  FS
 Yahoo Slurp Jan 2015 RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384   ECDH secp384r1  FS
 YandexBot Jan 2015 RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384   ECDH secp384r1  FS
+`
 
 **Protocol Details**
 
