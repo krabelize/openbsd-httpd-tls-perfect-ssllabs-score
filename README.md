@@ -174,3 +174,10 @@ YandexBot Jan 2015 RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA3
 | HTTP status code | 200 |
 | HTTP server signature | OpenBSD httpd |
 | Server hostname | cryptsus.com |
+
+
+# License
+Berkeley Software Distribution (BSD)
+
+# Author
+[Jeroen van Kessel](https://twitter.com/jeroenvkessel) | [cryptsus.com](https://cryptsus.com) - we craft cyber security solutions
