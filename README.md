@@ -233,3 +233,7 @@ HTTP status code	200
 HTTP server signature	OpenBSD httpd
 
 Server hostname	cryptsus.com
+
+
+
+Read other security blog posts on cryptsus.com/blog
