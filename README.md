@@ -163,7 +163,7 @@ YandexBot Jan 2015 RSA 4096 (SHA256) TLS 1.2	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA3
 | ECDH public server param reuse | No |
 | Supported Named Groups | secp384r1 |
 | SSL 2 handshake compatibility | No |
-| 0-RTT enabled | No |
+| 0-RTT enabled | Yes |
 
 **Miscellaneous**
 
